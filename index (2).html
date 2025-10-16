@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The FLOW Thrift Co.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="The FLOW Thrift Co. — Save Money, Save Lives. Shop deals, donate items, and support The Flow Foundation."/>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-fuchsia-600 via-purple-700 to-violet-900 text-white">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/5">
+    <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-2">
+        <span class="text-xl">✨</span>
+        <span class="text-lg font-bold tracking-wide">The FLOW Thrift Co.</span>
+      </div>
+      <div class="hidden gap-6 md:flex">
+        <a href="#shop" class="hover:underline">Shop</a>
+        <a href="#deals" class="hover:underline">Deals</a>
+        <a href="#hours" class="hover:underline">Hours</a>
+        <a href="#visit" class="hover:underline">Visit</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </div>
+      <div class="flex gap-2">
+        <a href="#donate" class="inline-flex items-center justify-center rounded-2xl px-4 py-2 font-semibold bg-white text-purple-700 hover:bg-fuchsia-100">Donate</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ALERT BANNER -->
+  <div class="bg-white/10 text-white">
+    <div class="mx-auto max-w-6xl px-4 py-2 text-center text-sm">
+      <strong>Free Store Wednesdays & Sundays (Chicago):</strong> 12–2 PM · <a href="#chicago" class="underline">Get details & directions</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section id="shop" class="relative overflow-hidden">
+    <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
+      <div class="space-y-6">
+        <h1 class="text-4xl font-extrabold leading-tight md:text-5xl">
+          NOW OPEN
+          <span class="block text-fuchsia-200">Save Money, Save Lives</span>
+        </h1>
+        <p class="text-lg opacity-95">Every purchase fuels The Flow Foundation’s programs for women and children affected by domestic violence.</p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#deals" class="inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-semibold bg-white text-purple-700 hover:bg-fuchsia-100">See Today’s Deals</a>
+          <a href="#donate" class="inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-semibold bg-fuchsia-700/40 hover:bg-fuchsia-700/60">Donate Items</a>
+        </div>
+        <div class="mt-6 flex flex-col gap-3 text-sm opacity-90">
+          <div class="flex items-center gap-2"><span class="mr-1">⏰</span> Tue–Fri 11am–6pm · Sat 10am–4pm</div>
+          <div class="flex items-center gap-2"><span class="mr-1">📍</span> 1187 N Farnsworth Ave, Aurora, IL</div>
+        </div>
+      </div>
+      <div>
+        <div class="rounded-2xl border-0 bg-white/10 text-white backdrop-blur-xl">
+          <div class="px-6 pt-6">
+            <h3 class="flex items-center gap-2 text-xl font-semibold"><span>🏷️</span> Today at FLOW</h3>
+          </div>
+          <div class="space-y-3 p-6">
+            <div class="rounded-xl bg-gradient-to-r from-fuchsia-600 to-rose-500 p-4 text-center font-semibold shadow-lg">Color Tag Special · 50% Off</div>
+            <div class="rounded-xl bg-white/10 p-4">New Arrivals: clothing, home goods & small appliances</div>
+            <div class="rounded-xl bg-white/10 p-4">Free Corner restocked at 2 PM daily (while supplies last)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="deals" class="px-4 py-16">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="mb-8 text-3xl font-bold">Why Shop FLOW?</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="border-0 bg-white/10 text-white rounded-2xl">
+          <div class="px-6 pt-6 flex items-center gap-3">
+            <h3 class="text-xl">Daily Deals</h3>
+          </div>
+          <div class="opacity-90 p-6">Fresh markdowns and color-tag sales every day.</div>
+        </div>
+        <div class="border-0 bg-white/10 text-white rounded-2xl">
+          <div class="px-6 pt-6 flex items-center gap-3">
+            <h3 class="text-xl">Free Corner</h3>
+          </div>
+          <div class="opacity-90 p-6">Pay-it-forward items—free while supplies last.</div>
+        </div>
+        <div class="border-0 bg-white/10 text-white rounded-2xl">
+          <div class="px-6 pt-6 flex items-center gap-3">
+            <h3 class="text-xl">Donations Welcome</h3>
+          </div>
+          <div class="opacity-90 p-6">Clean, gently-used clothing & household goods.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATIONS & HOURS -->
+  <section id="hours" class="bg-white/5 px-4 py-16">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="mb-8 text-3xl font-bold">Locations & Hours</h2>
+      <div class="grid gap-10 md:grid-cols-2">
+        <!-- Aurora Thrift -->
+        <div id="aurora">
+          <h3 class="mb-4 text-2xl font-semibold">Aurora Thrift Store</h3>
+          <div class="mb-3 flex items-center gap-2"><span class="mr-1">📍</span> 1187 N Farnsworth Ave, Aurora, IL</div>
+          <div class="divide-y divide-white/10 rounded-2xl border border-white/10">
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Tuesday</span><span class="opacity-90">11:00 AM – 6:00 PM</span></div>
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Wednesday</span><span class="opacity-90">Closed (See Chicago Free Store 12–2 PM)</span></div>
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Thursday</span><span class="opacity-90">11:00 AM – 6:00 PM</span></div>
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Friday</span><span class="opacity-90">11:00 AM – 6:00 PM</span></div>
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Saturday</span><span class="opacity-90">10:00 AM – 4:00 PM</span></div>
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Sunday</span><span class="opacity-90">Closed (See Chicago Free Store 12–2 PM)</span></div>
+            <div class="flex items-center justify-between p-4"><span class="font-medium">Monday</span><span class="opacity-90">Closed</span></div>
+          </div>
+          <iframe title="Map to FLOW Thrift Co – Aurora" class="mt-4 h-64 w-full rounded-2xl border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=1187+N+Farnsworth+Ave,+Aurora,+IL&output=embed"></iframe>
+        </div>
+
+        <!-- Chicago Free Store -->
+        <div id="chicago">
+          <h3 class="mb-4 text-2xl font-semibold">Chicago Free Store</h3>
+          <p class="mb-2 text-sm opacity-90">Open Wednesdays & Sundays, 12:00–2:00 PM</p>
+          <div class="mb-3 flex items-center gap-2"><span class="mr-1">📍</span> <span>5504 S. Michigan Ave, #106, Chicago, IL</span></div>
+          <p class="mb-3 text-sm opacity-80">Essentials, clothing, and household goods at no cost while supplies last. Donations welcomed.</p>
+          <div class="flex gap-3">
+            <a class="inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-semibold bg-white text-purple-700 hover:bg-fuchsia-100" href="https://maps.google.com/?q=5504+S.+Michigan+Ave,+%23106,+Chicago,+IL" target="_blank" rel="noreferrer noopener">Get Directions</a>
+            <a class="inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-semibold bg-fuchsia-700/40 hover:bg-fuchsia-700/60" href="#contact">Volunteer</a>
+          </div>
+          <iframe title="Map to FLOW Free Store – Chicago" class="mt-4 h-64 w-full rounded-2xl border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=5504+S.+Michigan+Ave,+%23106,+Chicago,+IL&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section id="donate" class="px-4 py-16">
+    <div class="mx-auto max-w-6xl">
+      <div class="grid gap-8 md:grid-cols-2">
+        <div>
+          <h2 class="mb-4 text-3xl font-bold">Donate Items</h2>
+          <p class="mb-4 opacity-95">Your gently-used clothing, shoes, accessories, linens, small appliances, and home goods help us stock affordable items and fund services for survivors.</p>
+          <ul class="mb-6 list-disc space-y-2 pl-6 text-sm opacity-95">
+            <li>Clean and in good working condition</li>
+            <li>No large furniture or TVs at this time</li>
+            <li>Tax-deductible receipt available upon request</li>
+          </ul>
+          <div class="flex gap-3">
+            <a href="#contact" class="inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-semibold bg-white text-purple-700 hover:bg-fuchsia-100">Schedule a Drop-Off</a>
+            <a href="#contact" class="inline-flex items-center justify-center rounded-2xl px-5 py-2.5 font-semibold bg-fuchsia-700/40 hover:bg-fuchsia-700/60">Ask a Question</a>
+          </div>
+        </div>
+        <div class="border-0 bg-white/10 text-white rounded-2xl">
+          <div class="px-6 pt-6">
+            <h3 class="flex items-center gap-2 text-xl font-semibold">❤️ Your Impact</h3>
+          </div>
+          <div class="space-y-2 opacity-95 p-6">
+            <p>Every sale supports The Flow Foundation’s <em>Survivors Starting Over</em> program and community giveaways.</p>
+            <p>Shop with purpose. Give with love.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-white/5 px-4 py-16">
+    <div class="mx-auto max-w-6xl">
+      <h2 class="mb-8 text-3xl font-bold">Contact</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="border-0 bg-white/10 text-white rounded-2xl md:col-span-2">
+          <div class="px-6 pt-6"><h3 class="text-xl font-semibold">Send a Message</h3></div>
+          <div class="p-6">
+            <form class="grid grid-cols-1 gap-4 md:grid-cols-2">
+              <input class="rounded-xl border-0 bg-white/90 p-3 text-slate-800 placeholder-slate-500 focus:outline-none" placeholder="Your Name" />
+              <input class="rounded-xl border-0 bg-white/90 p-3 text-slate-800 placeholder-slate-500 focus:outline-none" placeholder="Email or Phone" />
+              <textarea class="md:col-span-2 h-32 rounded-xl border-0 bg-white/90 p-3 text-slate-800 placeholder-slate-500 focus:outline-none" placeholder="How can we help?"></textarea>
+              <button type="button" class="md:col-span-2 rounded-2xl px-5 py-2.5 font-semibold bg-white text-purple-700 hover:bg-fuchsia-100">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">📞 (XXX) XXX-XXXX</div>
+          <div class="flex items-center gap-2">✉️ info@flowthrift.org</div>
+          <div class="flex items-center gap-2">Facebook: @TheFlowThriftCo</div>
+          <div class="flex items-center gap-2">Instagram: @TheFlowThriftCo</div>
+          <p class="text-sm opacity-80">Replace placeholders with your real contact info and socials.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10">
+    <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-8 md:flex-row">
+      <p class="text-sm opacity-80">© <span id="year"></span> The FLOW Thrift Co. All rights reserved.</p>
+      <div class="text-sm opacity-80">A project of The Flow Foundation · Aurora, IL</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
